@@ -1,0 +1,49 @@
+# Claude local settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Checkpoints
+checkpoints/
+*.ckpt
+*.pt
+
+# Data outputs
+*.csv.gz
+*.parquet
+
+# Logs
+*.log
+logs/
+wandb/
